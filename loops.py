@@ -67,6 +67,7 @@ while i < len(list1):
 
 
 # In[ ]:
+#While
 
 list1 = [10, 8, 7, 6, -2, -5, -10]
 total4 = 0
@@ -78,3 +79,12 @@ while list1[j] < 0 and j<len(list1):
 print(total4)
 
 
+#FOR
+
+list1 = [10, 8, 7, 6, -2, -5, -10]
+total=0
+for i in list1:
+    if i <0:
+        total+=i
+        i+=1
+print(total)

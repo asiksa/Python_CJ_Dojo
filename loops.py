@@ -68,6 +68,13 @@ while i < len(list1):
 
 # In[ ]:
 
-
+list1 = [10, 8, 7, 6, -2, -5, -10]
+total4 = 0
+j=len(list1)-1
+print(j)
+while list1[j] < 0 and j<len(list1):
+    total4+=list1[j]
+    j-=1
+print(total4)
 
 

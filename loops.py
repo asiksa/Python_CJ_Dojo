@@ -76,7 +76,7 @@ print(j)
 while list1[j] < 0 and j<len(list1):
     total4+=list1[j]
     j-=1
-print(total4)
+print(total4) 
 
 
 #FOR
@@ -88,3 +88,10 @@ for i in list1:
         total+=i
         i+=1
 print(total)
+
+#short def
+
+list = [10, 8, 7, 6, -2, -5, -10]
+def neg_num():
+    return sum(x for x in list if x <0)
+print(neg_num())

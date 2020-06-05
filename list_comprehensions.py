@@ -18,3 +18,8 @@ for x in range(6,0,-1):
 print(b)
 
 #[36, 25, 16, 9, 4, 1]
+
+b=[x**2 for x in range(6,0,-1)]
+print(b)
+
+#[36, 25, 16, 9, 4, 1]
